@@ -1,3 +1,4 @@
+import { FramePageComponent } from './pages/master/frame.page';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -20,7 +21,8 @@ import { CartPageComponent } from './pages/store/cart-page/cart-page.component';
     SignupPageComponent,
     PetsPageComponent,
     ProductsPageComponent,
-    CartPageComponent
+    CartPageComponent,
+    FramePageComponent
   ],
   imports: [
     BrowserModule,
